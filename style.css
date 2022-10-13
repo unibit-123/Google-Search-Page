@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Karla:ital,wght@0,200;1,300&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans:wght@400;600;700&family=Raleway:wght@200;300;400&display=swap');
+
+body {
+    background-color: #202124; 
+    height: 100vh; 
+    max-height: 100vh; 
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+nav div {
+    padding: 6px;
+    margin: 4px;
+}
+
+input {
+    all: unset;
+    color: white;
+}
+
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.app-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.app-path {
+    fill: white;
+}
+
+.header-profile {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.header-icon:hover,
+.header-profile:hover {
+    border-radius: 50%;
+    background-color: #515151;
+}
+
+/* MIDDLE */
+
+.middle-zone {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 750px);
+}
+
+.google-logo {
+    width: 300px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #5f6368;
+    border-radius: 40px;
+    width: 600px;
+    max-height: 39px;
+    margin-top: 30px;
+}
+
+.search-bar:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+    box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.51);
+}
+
+.search-icon {
+    width: 20px;
+}
+
+.search-path {
+    fill: #9aa0a6;
+}
+
+.search-zone {
+    width: 100%;
+}
+
+.text-zone {
+    width: 100%;
+}
+
+.mic-icon {
+    width: 20px;
+}
